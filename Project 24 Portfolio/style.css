@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: 1s ease-in-out;
+  }
+
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+
+/* header{
+    top: 0;
+    position:fixed;
+    width: 100%;
+} */
+
+/* navbar css */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 19, 62);
+    
+}
+
+/* ul li css */
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    border-bottom: 3px solid yellow;
+    color: rgb(97, 155, 222);
+    padding: 0 0 4px 0;
+   
+}
+
+/* portfolio logo css */
+.left{
+    font-size: 23px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0;
+    /* align-items: center; */
+}
+
+.firstsection > div{
+    width: 30%;
+}
+
+.button{
+    margin: 50px 0;
+    padding: 15px;
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.button:hover{
+    border: 0 ;
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+ }
+
+.leftsection{
+    font-size: 2.5rem; 
+    /* background-color: red; */
+}
+
+.rightsection img{
+   width: 105%;
+    border-radius: 56px;
+    /* background-color: red; */
+}
+.rightsection img:hover{
+   width: 110%;
+   
+}
+
+.yellow{
+    color: yellow;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    /* height: 80vh; */
+}
+
+main hr{
+    border: 0;
+    background-color:#9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.secondsection h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+.container{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.card_img{
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.card_img:hover{
+    transform: scale(1.05);
+    transition: 1s ease-in-out;
+    opacity: 0.8;    
+}
+.card_container{
+    /* background-color: white; */
+    border-radius: 20px;
+    margin: 20px;
+    
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center; 
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0;
+}
+ 
+ul li{
+    list-style: none;
+    margin: 30px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+ }
+
+ /* .container2 div{
+    width: 30%;
+ } */
+
+ form input, form textarea{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(18, 19, 62);
+    border: none;
+    border-radius: 5px;
+    color: white;
+ }
+
+ .leftcontainer{
+    margin: 0 100px;
+ }
+
+ section .btn{
+    padding: 10px;
+    margin: 5px 25px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+ }
+
+ section .btn:hover{
+    border: 0 ;
+    border-radius: 10px;
+    background-color: rgb(18, 19, 62);
+    color: white;
+ }
+
+ hr{
+    border: 0;
+    background-color:#9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+footer{
+    
+    background-color: rgb(18, 19, 62);
+    text-align: center;
+    padding: 20px;
+    
+}
+
+@media screen and (max-width: 800px){
+    nav{
+        width: 100% ;
+        height: 80%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px 0;
+    }
+    nav ul{
+        display:block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       
+    }
+
+    nav ul li {
+        padding: 20px;
+    }
+     .container2{
+        width: 80%;
+     }
+}
+
+@media screen and (max-width: 600px) {
+    .firstsection{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 100px;
+    }
+    .leftsection, .rightsection{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .container2{
+        width: 50%;
+        margin-left: 50px;
+     }    
+     .rightsection img{
+        width: 300%;
+     }
+}
+
+
+@media screen and (max-width: 400px) {
+    .container2{
+        display: block;
+     }
+
+     .leftcontainer{
+        margin: 30px;
+     }
+
+     .rightsection img{
+        width: 300%;
+     }
+}
+

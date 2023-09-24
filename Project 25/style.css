@@ -1,0 +1,241 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+</style>
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.logo{
+    text-align: center;
+    margin: 20px 0 15px 0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin: 5px 25px;
+}
+
+hr{
+    border: 2px solid grey;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.content{
+    max-width: 35%;
+    width: 100%;
+    /* padding: 0 20px;
+    margin: 0 20px; */
+}
+
+.img{
+    max-width: 30%;
+    width: 100%;
+    text-align: center;
+    /* margin: 0 20px;
+    padding: 0 20px; */
+}
+
+.img2{
+    width: 450px;
+}
+
+.heading, .para{
+    text-align: justify;
+    
+}
+.heading{
+    font-size: 30px;
+}
+
+.btn{
+    background-color: #1492E6;
+    padding: 20px 50px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+    border-radius: 50px;
+    /* margin: 10px 10px 10px 0 */
+    border: 0;
+}
+
+.heading2{
+    margin: 100px 0 20px 0;
+    text-align: center;
+}
+
+.content2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 270px;
+    height: 320px;
+    border-radius: 18px;
+    padding: 20px;
+    margin: 50px 20px;
+    text-align: justify;
+    box-shadow: 5px 10px 18px #888888;
+    
+}
+
+.content3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card2{
+    width: 270px;
+    /* height: auto; */
+    border-radius: 18px;
+    padding: 20px;
+    /* margin: 50px 0px; */
+    text-align: justify;
+    /* box-shadow: 5px 10px 18px #888888; */
+}
+
+.cimg3{
+    width: 244px;
+    height: 188px;
+}
+
+.flex_box{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 75px;
+    /* justify-content: flex-end;
+    align-items: end; */
+}
+
+.content4{
+    display:flex;
+    padding: 10px;
+    /* align-items: end; */
+    /* justify-content: flex-end; */
+}
+
+.para2{
+    width: 500px;
+}
+
+
+
+.flex_box2{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 75px;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.content4b{
+    display:flex;
+    padding: 10px;
+    margin: 0 220px;
+}
+
+.himg{
+    width: 64px;
+    height: 63px;
+}
+.content6{
+    max-width: 900px;
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    border-radius: 30px;
+    box-shadow: 5px 10px 18px #888888;
+    margin-top: 70px;
+}
+.imghead{
+    display: flex;
+    
+}
+.head{
+    padding-left: 20px;
+}
+.card4{ 
+    width: 200px;
+    background-color: white;
+    max-width: 600px;
+    border-radius: 18px;
+    padding: 20px;
+    margin: 50px 10px;
+    text-align: justify;
+    box-shadow: 5px 10px 18px #888888;
+     
+}
+
+.content7{
+    display: flex;
+}
+
+.C{
+    font-size: 10px;
+}
+.B{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading2_2{
+    margin: 300px 0 20px 0;
+    text-align: center;
+}
+
+.box{
+    max-width: 900px;
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.D{
+    text-align: center;
+}
+.imgb{
+    width: 78px;
+    height: 78px;
+}
+.sub_box{
+    margin: 0 25px;
+    padding: 10px;
+}
+
+.footer{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 100px;
+    padding-top: 50px;
+}

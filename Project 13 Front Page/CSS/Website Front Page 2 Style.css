@@ -1,0 +1,246 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../india_taj_mahal.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: ;
+	
+}
+
+ul{
+	float: left;
+	list-style-type: none;
+	margin-top: 25px;
+	margin-left: 30px;
+	
+}
+
+ul li {
+	
+	display: inline-block;
+}
+
+ul li a{
+	
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid white;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+
+ul li.active a{
+	
+	background-color: white;
+	color: black;
+}
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+	
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+	padding: 20px;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: white;
+	font-size: 70px;
+}
+
+.button{
+	position: absolute;
+	top: 60%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid white;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+}
+
+.btn:hover{
+	background-color: white;
+	color: black;
+}
+
+.form{
+	
+	width: 255px;
+	height: 300px;
+	background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+	position: absolute;
+	top: 25%;
+	left: 75%;
+	padding: 25px;
+	border-radius: 10px;
+}
+
+.form h2{
+	
+	width: 220px;
+	font-family: sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	background-color:;
+	margin: 2px;
+	padding: 8px;
+	
+}
+
+.form input{
+	
+	width: 240px;
+	height: 35px;
+	background-color: transparent;
+	border-bottom: 1px solid green;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	color: yellow;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-top: 30px;
+	font-family: sans-serif;
+}
+
+.form input:focus{
+	outline: none;
+}
+
+::placeholder{
+	color: white;
+	font-family: Arial;
+}
+
+.btn1{
+	border: 1px solid white;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	background: white;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 15px;
+	cursor: pointer;
+	transition: 0.4s ease;
+}
+
+.btn1:hover{
+	background-color: green;
+	color: white;
+}
+
+.btn1 a{
+	
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.btn1 a:hover{
+	
+	color:white;
+}
+
+.icons a{
+	
+	text-decoration: none;
+	color: white;
+}
+
+.icons ion-icon{
+	
+	color: white;
+	font-size: 30px;
+	padding-left: 14px;
+	padding-top: 20px;
+	transition: 0.3s ease;
+}
+
+.icons ion-icon:hover{
+	
+	color: green;
+	font-size: 40px;
+}
+
+.search{
+	
+	width: 300px;
+	float: left;
+	margin-left: 200px;
+}
+
+.srch{
+	
+	font-family: 'Times New Roman';
+	width: 200px;
+	height: auto;
+	background: transparent;
+	border: 1px solid white;
+	margin-top: 20px;
+	color: yellow;
+	font-size: 16px;
+	float: left;
+	padding: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.btnn{
+	font-weight: bold;
+	width: 100px;
+	height: 30px;
+	background: white;
+	border: 2px solid white;
+	margin-top: 20px;
+	color: black;
+	font-size: 15px;
+	border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.btnn:focus{
+	
+	outline: none;
+}
+
+.srch:focus{
+	
+	outline: none;
+}
+
+.btnn:hover{
+	
+	color: white;
+	background-color: green;
+	font-weight: bold;
+}
